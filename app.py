@@ -31,7 +31,7 @@ def getdata():
     return data
 
 
-@app.get("/")
+@app.route("/")
 def main():
     return render_template("index.html")
 
